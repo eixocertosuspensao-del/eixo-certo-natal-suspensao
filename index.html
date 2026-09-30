@@ -73,14 +73,15 @@ nav{
 }
 
 .logo{
-    font-size:1.65rem;
-    font-weight:900;
-    letter-spacing:-1px;
-    text-transform:uppercase;
+    display:flex;
+    align-items:center;
 }
 
-.logo span{
-    color:var(--amarelo);
+.logo img{
+    width:72px;
+    height:72px;
+    object-fit:contain;
+    display:block;
 }
 
 .telefone{
@@ -522,8 +523,9 @@ footer .instagram{
         min-height:65px;
     }
 
-    .logo{
-        font-size:1.25rem;
+    .logo img{
+        width:60px;
+        height:60px;
     }
 
     .telefone{
@@ -600,7 +602,7 @@ footer .instagram{
 <nav class="container">
 
 <div class="logo">
-    Eixo Certo <span>Natal</span>
+    <img src="logo.png" alt="Eixo Certo Suspensão">
 </div>
 
 <div class="telefone">
