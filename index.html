@@ -1,349 +1,328 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1629864755547481');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel Code -->
 
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)n=f;
-    n.push=n;
-    n.loaded=!0;
-    n.version='2.0';
-    n.queue=[];
-    t=b.createElement(e);
-    t.async=!0;
-    t.src=v;
-    s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)
-    }(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eixo Certo Natal Suspensão | Oficina em Natal/RN</title>
+<meta name="description" content="Eixo Certo Natal Suspensão em Natal/RN. Suspensão automotiva, amortecedores, buchas, pivôs, alinhamento, balanceamento e revisão. Fale pelo WhatsApp.">
+<meta name="theme-color" content="#080808">
 
-    fbq('init', '1629864755547481');
-    fbq('track', 'PageView');
-    </script>
+<style>
+:root {
+    --preto: #080808;
+    --preto2: #111111;
+    --preto3: #1b1b1b;
+    --vermelho: #d90000;
+    --vermelho2: #ff1a1a;
+    --amarelo: #ffd400;
+    --amarelo2: #ffea00;
+    --branco: #ffffff;
+    --cinza: #f2f2f2;
+    --texto: #222222;
+}
 
-    <noscript>
-        <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1629864755547481&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Meta Pixel Code -->
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    <title>Eixo Certo Natal Suspensão | Oficina em Natal/RN</title>
-    <meta name="description" content="Eixo Certo Natal Suspensão em Natal/RN. Suspensão automotiva, amortecedores, buchas, pivôs, alinhamento, balanceamento e revisão. Fale pelo WhatsApp.">
-    <meta name="theme-color" content="#080808">
+html {
+    scroll-behavior: smooth;
+}
 
-    <style>
-    :root {
-        --preto: #080808;
-        --preto2: #111111;
-        --preto3: #1b1b1b;
-        --vermelho: #d90000;
-        --vermelho2: #ff1a1a;
-        --amarelo: #ffd400;
-        --amarelo2: #ffea00;
-        --branco: #ffffff;
-        --cinza: #f2f2f2;
-        --texto: #222222;
-    }
+body {
+    color: var(--texto);
+    line-height: 1.6;
+    background: #fff;
+}
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 
-    html {
-        scroll-behavior: smooth;
-    }
+a {
+    color: inherit;
+}
 
-    body {
-        color: var(--texto);
-        line-height: 1.6;
-        background: #fff;
-    }
+/* HEADER */
+header {
+    background: var(--preto);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid var(--vermelho);
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
 
-    .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: auto;
-    }
+nav {
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
 
-    a {
-        color: inherit;
-    }
+.logo {
+    display: flex;
+    align-items: center;
+}
 
-    /* HEADER */
-    header {
-        background: var(--preto);
-        color: #fff;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        border-bottom: 3px solid var(--vermelho);
-        box-shadow: 0 3px 15px rgba(0,0,0,.4);
-    }
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+}
 
-    nav {
-        min-height: 75px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-    }
+.telefone {
+    font-weight: 700;
+}
 
-    .logo {
-        display: flex;
-        align-items: center;
-    }
+.telefone a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
 
-    .logo img {
-        width: 100px;
-        height: 100px;
-        object-fit: contain;
-        display: block;
-    }
+.whatsapp-header-icon {
+    width: 22px;
+    height: 22px;
+    fill: #25d366;
+    flex: none;
+}
 
-    .telefone {
-        font-weight: 700;
-    }
+.telefone a:hover {
+    color: var(--amarelo);
+}
 
-    .telefone a {
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 7px;
-    }
+/* HERO */
+.hero {
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,.94),
+            rgba(0,0,0,.72),
+            rgba(130,0,0,.45)
+        ),
+        url("eixo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
-    .whatsapp-header-icon {
-        width: 22px;
-        height: 22px;
-        fill: #25d366;
-        flex: none;
-    }
+.hero-content {
+    max-width: 850px;
+}
 
-    .telefone a:hover {
-        color: var(--amarelo);
-    }
+.badge {
+    display: inline-block;
+    background: var(--vermelho);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
 
-    /* HERO */
-    .hero {
-        min-height: 680px;
-        display: flex;
-        align-items: center;
-        color: #fff;
-        background:
-            linear-gradient(
-                90deg,
-                rgba(0,0,0,.94),
-                rgba(0,0,0,.72),
-                rgba(130,0,0,.45)
-            ),
-            url("eixo.png");
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
+.hero h1 {
+    font-size: clamp(2.5rem,6vw,4.7rem);
+    line-height: 1.03;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
 
-    .hero-content {
-        max-width: 850px;
-    }
+.hero h1 span {
+    color: var(--amarelo);
+}
 
-    .badge {
-        display: inline-block;
-        background: var(--vermelho);
-        color: #fff;
-        padding: 8px 16px;
-        border-radius: 4px;
-        font-weight: 800;
-        text-transform: uppercase;
-        margin-bottom: 22px;
-    }
+.hero p {
+    font-size: 1.15rem;
+    max-width: 720px;
+    color: #eeeeee;
+    margin-bottom: 32px;
+}
 
-    .hero h1 {
-        font-size: clamp(2.5rem, 6vw, 4.7rem);
-        line-height: 1.03;
-        margin-bottom: 22px;
-        text-transform: uppercase;
-    }
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
-    .hero h1 span {
-        color: var(--amarelo);
-    }
+/* BOTÕES */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 27px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .25s;
+    text-transform: uppercase;
+}
 
-    .hero p {
-        font-size: 1.15rem;
-        max-width: 720px;
-        color: #eeeeee;
-        margin-bottom: 32px;
-    }
+.btn:hover {
+    transform: translateY(-3px);
+}
 
-    .botoes {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
+.btn-amarelo {
+    background: var(--amarelo);
+    color: #000;
+    box-shadow: 0 5px 20px rgba(255,212,0,.25);
+}
 
-    /* BOTÕES */
-    .btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 27px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: 900;
-        transition: .25s;
-        text-transform: uppercase;
-    }
+.btn-amarelo:hover {
+    background: var(--amarelo2);
+}
 
-    .btn:hover {
-        transform: translateY(-3px);
-    }
+.btn-vermelho {
+    background: var(--vermelho);
+    color: #fff;
+}
 
-    .btn-amarelo {
-        background: var(--amarelo);
-        color: #000;
-        box-shadow: 0 5px 20px rgba(255,212,0,.25);
-    }
+.btn-vermelho:hover {
+    background: var(--vermelho2);
+}
 
-    .btn-amarelo:hover {
-        background: var(--amarelo2);
-    }
+.btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+}
 
-    .btn-vermelho {
-        background: var(--vermelho);
-        color: #fff;
-    }
+.btn-outline:hover {
+    background: #fff;
+    color: #000;
+}
 
-    .btn-vermelho:hover {
-        background: var(--vermelho2);
-    }
+/* SEÇÕES */
+section {
+    padding: 80px 0;
+}
 
-    .btn-outline {
-        border: 2px solid #fff;
-        color: #fff;
-    }
+.titulo {
+    text-align: center;
+    margin-bottom: 45px;
+}
 
-    .btn-outline:hover {
-        background: #fff;
-        color: #000;
-    }
+.titulo small {
+    color: var(--vermelho);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-    /* SEÇÕES */
-    section {
-        padding: 80px 0;
-    }
+.titulo h2 {
+    color: var(--preto);
+    font-size: 2.4rem;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
 
-    .titulo {
-        text-align: center;
-        margin-bottom: 45px;
-    }
+.titulo p {
+    max-width: 700px;
+    margin: 12px auto 0;
+    color: #666;
+}
 
-    .titulo small {
-        color: var(--vermelho);
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
+/* SERVIÇOS */
+.servicos {
+    background: #fff;
+}
 
-    .titulo h2 {
-        color: var(--preto);
-        font-size: 2.4rem;
-        margin-top: 6px;
-        text-transform: uppercase;
-    }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 22px;
+}
 
-    .titulo p {
-        max-width: 700px;
-        margin: 12px auto 0;
-        color: #666;
-    }
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.09);
+    border-top: 4px solid var(--vermelho);
+    transition: .25s;
+}
 
-    /* SERVIÇOS */
-    .servicos {
-        background: #fff;
-    }
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.16);
+}
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 22px;
-    }
+.icone {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: var(--preto);
+    color: var(--amarelo);
+    font-size: 27px;
+    margin-bottom: 18px;
+}
 
-    .card {
-        background: #fff;
-        border-radius: 8px;
-        padding: 30px;
-        box-shadow: 0 5px 25px rgba(0,0,0,.09);
-        border-top: 4px solid var(--vermelho);
-        transition: .25s;
-    }
+.card h3 {
+    color: var(--preto);
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
 
-    .card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 30px rgba(0,0,0,.16);
-    }
+.card p {
+    color: #666;
+}
 
-    .icone {
-        width: 58px;
-        height: 58px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 8px;
-        background: var(--preto);
-        color: var(--amarelo);
-        font-size: 27px;
-        margin-bottom: 18px;
-    }
+/* DIFERENCIAIS */
+.diferenciais {
+    background: var(--preto);
+    color: #fff;
+    border-top: 5px solid var(--amarelo);
+}
 
-    .card h3 {
-        color: var(--preto);
-        margin-bottom: 8px;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-    }
+.diferenciais .titulo h2 {
+    color: #fff;
+}
 
-    .card p {
-        color: #666;
-    }
+.diferenciais .titulo p {
+    color: #bbb;
+}
 
-    /* DIFERENCIAIS */
-    .diferenciais {
-        background: var(--preto);
-        color: #fff;
-        border-top: 5px solid var(--amarelo);
-    }
+.diferencial-card {
+    background: var(--preto3);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 28px;
+    color: #fff;
+    transition: .25s;
+}
 
-    .diferenciais .titulo h2 {
-        color: #fff;
-    }
-
-    .diferenciais .titulo p {
-        color: #bbb;
-    }
-
-    .diferencial-card {
-        background: var(--preto3);
-        border: 1px solid #333;
-        border-radius: 8px;
-        padding: 28px;
-        color: #fff;
-        transition: .25s;
-    }
-
-    .diferencial-card:hover {
-        border-color: var(--amarelo);
-        transform: translateY(-4px);
-    }
-
-    .diferencial-card strong {
-        display: block;
-        color: var(--amarelo);
-        font-size: 1.1rem;
-        margin
+.diferencial-card:hover {
+    border-color: var(--amarelo);
+    transform:
