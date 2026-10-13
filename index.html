@@ -875,5 +875,30 @@ alt="">
     📱
 </a>
 
+
+<script>
+document.addEventListener("click", function (event) {
+  const link = event.target.closest('a[href*="wa.me/5584991389052"]');
+
+  if (!link) return;
+
+  const dados = JSON.stringify({
+    event_name: "Contact"
+  });
+
+  fetch("https://eixo-certo-meta-api.eixocertosuspensao.workers.dev/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: dados,
+    keepalive: true
+  }).catch(function (erro) {
+    console.error("Não foi possível enviar o evento Contact:", erro);
+  });
+});
+</script>
+
 </body>
 </html>
+
