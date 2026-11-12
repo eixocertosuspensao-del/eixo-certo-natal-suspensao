@@ -872,12 +872,24 @@ alt="">
 </a>
 
 
+
 <script>
 document.addEventListener("click", function (event) {
   const link = event.target.closest('a[href*="wa.me/5584991389052"]');
 
   if (!link) return;
 
+  // Conversão Google Ads
+  if (typeof gtag === "function") {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18515227768/HqAxCIu2obcdEPjo3_xE',
+      'value': 1.0,
+      'currency': 'BRL',
+      'transport_type': 'beacon'
+    });
+  }
+
+  // Evento Contact para a Meta
   const dados = JSON.stringify({
     event_name: "Contact"
   });
@@ -897,4 +909,3 @@ document.addEventListener("click", function (event) {
 
 </body>
 </html>
-
